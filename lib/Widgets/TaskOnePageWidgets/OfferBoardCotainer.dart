@@ -18,6 +18,19 @@ class OfferBoardContainer extends StatelessWidget {
               Text("Check Now >>", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),),
               Text("T&C apply", style: TextStyle(fontWeight: FontWeight.w600, fontSize: 8, color: Colors.grey.shade600),),
             ],
+          ),
+          SizedBox(width: 10,),
+          Row(
+            children: [
+              Text("2", style: TextStyle(fontSize: 60, color: Color(0xFFe8873a)),),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Text("Get", style: TextStyle(fontWeight: FontWeight.bold), ),
+                  Text("% OFF", style: TextStyle(fontWeight: FontWeight.bold))
+                ],
+              )
+            ],
           )
         ],
       ),

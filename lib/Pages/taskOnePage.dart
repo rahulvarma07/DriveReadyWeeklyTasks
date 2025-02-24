@@ -46,6 +46,19 @@ class _TaskPageOneState extends State<TaskPageOne> {
                         borderRadius: BorderRadius.all(Radius.circular(15)),
                         color: Color(0xFFfbe5e5),
                       ),
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Padding(
+                          padding: const EdgeInsets.all(3.0),
+                          child: Row(
+                            children: [
+                              Icon(Icons.warning_amber, color: Color(0xFFda8e95), size: 19,),
+                              Text("Uh-Oh! Your plan has expired Recharge now.", style: TextStyle(color: Color(0xFFda8e95), fontSize: 12),), 
+                              SizedBox(width: w*0.1,),
+                            ],
+                          ),
+                        ),
+                      ),
                     ),
                     Container(
                       height: h*0.2,
